@@ -1,4 +1,4 @@
-# Post 001 A 2 to 1 multiplexer
+# 2-to-1 Multiplexer and Testbench
 
 ## Specification
 
