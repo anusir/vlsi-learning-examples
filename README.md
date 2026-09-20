@@ -1,12 +1,12 @@
-# VLSI learning examples
+# SystemVerilog MUX and Testbench
 
-Small SystemVerilog examples accompanying the LinkedIn learning series.
+A combinational 2-to-1 multiplexer with a self-checking SystemVerilog testbench.
 
-## Examples
+## Design and verification
 
-- [Post 001: A 2-to-1 multiplexer](post-001-mux/README.md)
+- [MUX specification and testbench instructions](post-001-mux/README.md)
 
-Each post folder contains its RTL, self-checking testbench, file list, run instructions and expected results. New lessons can be added alongside existing examples.
+The MUX selects input `a` when `sel = 0` and input `b` when `sel = 1`. The testbench checks all eight binary combinations of `a`, `b` and `sel`, fails on an output mismatch, and writes a VCD waveform. The source folder contains the RTL, testbench, file list and expected result.
 
 ## Requirements
 
@@ -20,4 +20,4 @@ Simulation outputs go under `build/`, which is ignored by Git.
 
 ## Validation status
 
-The Post 001 Boolean truth table was checked independently in Python. The SystemVerilog files have not been compiled or simulated in the authoring environment. Expected simulator output is documented, not claimed as an observed result.
+The binary truth table was checked independently in Python. The SystemVerilog files have not been compiled or simulated in the authoring environment. Expected simulator output is documented, not claimed as an observed result.

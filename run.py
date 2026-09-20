@@ -1,4 +1,4 @@
-"""Compile and run Post 001 using Icarus Verilog. No Python packages required."""
+"""Compile the MUX and run its testbench using Icarus Verilog."""
 from pathlib import Path
 import shutil
 import subprocess
