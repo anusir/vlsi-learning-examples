@@ -5,6 +5,7 @@ A combinational 2-to-1 multiplexer with a self-checking SystemVerilog testbench.
 ## Design and verification
 
 - [MUX specification and testbench instructions](post-001-mux/README.md)
+- [Combinational MUX and sequential register](combinational-sequential/README.md)
 
 The MUX selects input `a` when `sel = 0` and input `b` when `sel = 1`. The testbench checks all eight binary combinations of `a`, `b` and `sel`, fails on an output mismatch, and writes a VCD waveform. The source folder contains the RTL, testbench, file list and expected result.
 
